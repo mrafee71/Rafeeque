@@ -38,7 +38,7 @@ export default function Experience() {
                     <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
                       <BriefcaseIcon className="h-5 w-5" />
                     </div>
-                    <CardTitle className="text-xl md:text-2xl">Website Developer Intern</CardTitle>
+                    <CardTitle className="text-xl md:text-2xl">Web Developer Intern</CardTitle>
                   </div>
                   <CardDescription>
                     <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-2">
@@ -49,7 +49,7 @@ export default function Experience() {
                       <div className="hidden sm:block text-muted-foreground">•</div>
                       <div className="flex items-center gap-1">
                         <MapPinIcon className="h-4 w-4 text-muted-foreground" />
-                        <span>Web Development Company</span>
+                        <span>Al Farooq Group Of Companies</span>
                       </div>
                     </div>
                   </CardDescription>
@@ -59,15 +59,13 @@ export default function Experience() {
                 <div className="space-y-4">
                   <p className="text-muted-foreground">
                     During my internship, I gained hands-on experience in web development, working on various projects
-                    and enhancing my skills in frontend and backend technologies.
+                    and enhancing my skills in Website Development.
                   </p>
                   <div>
                     <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
                     <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
                       <li>Developed responsive web pages using HTML, CSS, and JavaScript</li>
                       <li>Collaborated with senior developers on client projects</li>
-                      <li>Implemented features using React.js and Node.js</li>
-                      <li>Worked with databases like MySQL and MongoDB</li>
                       <li>Participated in code reviews and team meetings</li>
                     </ul>
                   </div>
@@ -75,9 +73,9 @@ export default function Experience() {
                     <Badge className="bg-primary/10 text-primary hover:bg-primary/20">HTML</Badge>
                     <Badge className="bg-primary/10 text-primary hover:bg-primary/20">CSS</Badge>
                     <Badge className="bg-primary/10 text-primary hover:bg-primary/20">JavaScript</Badge>
-                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">React</Badge>
-                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Node.js</Badge>
-                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">MySQL</Badge>
+                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Bootstrap</Badge>
+                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">jQuery</Badge>
+                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Sass</Badge>
                   </div>
                 </div>
               </CardContent>

@@ -16,8 +16,8 @@ export default function Projects() {
         "A modern, responsive portfolio website built with Next.js and Tailwind CSS to showcase my skills, projects, and experience.",
       image: "/placeholder.svg?height=300&width=600",
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      githubUrl: "https://github.com/mrafee71/portfolio",
-      liveUrl: "#",
+      githubUrl: "https://github.com/mrafee71/Rafeeque",
+      liveUrl: "https://rafeeque.vercel.app/",
     },
     {
       title: "Hostel Management System",
@@ -35,8 +35,8 @@ export default function Projects() {
         "A task management application built with React.js and Redux that allows users to create, update, and track their daily tasks.",
       image: "/placeholder.svg?height=300&width=600",
       tags: ["React.js", "Redux", "JavaScript", "CSS"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/mrafee71/Taskylo",
+      liveUrl: "https://mrafee71.github.io/Taskylo/",
     },
     {
       title: "Blog Website",

@@ -44,7 +44,7 @@ export default function About() {
                 <div className="space-y-4 text-muted-foreground">
                   <p>
                     I am a fresh BCA graduate from Kannur University (2024) with a passion for web development. I have 6
-                    months of internship experience as a website developer, where I honed my skills in building
+                    months of internship experience as a web developer, where I honed my skills in building
                     responsive and user-friendly web applications.
                   </p>
                   <p>

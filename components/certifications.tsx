@@ -13,7 +13,7 @@ export default function Certifications() {
       issuer: "Steyp.com",
       date: "2024 Dec",
       certificateUrl: "https://drive.google.com/file/d/1bSDHSh4DZFCYC2x6rkfPfQXNCPvL2ll1/view?usp=sharing",
-      skills: ["UI Design", "Frontend Development", "User Experience", "HTML/CSS", "JavaScript"],
+      skills: ["HTML/CSS", "Git & Gitlab", "JavaScript", "jQuery", "Bootstrap", "Sass", "React", "Progressive Web Apps"],
       logo: "/images/steyp-logo.png",
     },
     {
@@ -28,7 +28,7 @@ export default function Certifications() {
       title: "SEO Crash Course with Brian Dean",
       issuer: "Semrush Academy",
       date: "2025 Feb",
-      certificateUrl: "#",
+      certificateUrl: "https://drive.google.com/file/d/1ok9CMdyqQno5CzOEguXtVwDHv2i08QrW/view?usp=sharing",
       skills: ["SEO", "Content Marketing", "Keyword Research", "Link Building", "Analytics"],
       logo: "/images/semrush-logo.png",
     },
