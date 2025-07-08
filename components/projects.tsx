@@ -4,10 +4,11 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLinkIcon, GithubIcon, FileTextIcon } from "lucide-react"
+import { ExternalLinkIcon, Code, FileTextIcon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import PortfolioWebImage from "@/public/images/rafeeque.jpg"
+import MyStoreImage from "@/public/images/myStore.jpg"
 
 export default function Projects() {
   const projects = [
@@ -43,7 +44,7 @@ export default function Projects() {
       title: "MyStore - E-commerce Platform",
       description:
         "An e-commerce platform UI built with  React.js, featuring product listings, user authentication, and a shopping cart.",
-      image: "/placeholder.svg?height=300&width=600",
+      image: MyStoreImage,
       tags: ["React.js", "HTML", "CSS", "Tailwind CSS", "JavaScript"],
       githubUrl: "https://github.com/mrafee71/mystore-ui",
       liveUrl: "https://mystore-ui-puce.vercel.app/",
@@ -79,7 +80,6 @@ export default function Projects() {
             >
               <Card className="overflow-hidden border-none shadow-lg h-full bg-card/50 backdrop-blur-sm hover:shadow-xl transition-all duration-300">
                 <div className="relative aspect-video overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-purple-400/20 z-10"></div>
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
@@ -104,7 +104,7 @@ export default function Projects() {
                   {project.githubUrl && (
                     <Button variant="outline" size="sm" asChild className="rounded-full">
                       <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <GithubIcon className="mr-2 h-4 w-4" />
+                        <Code className="mr-2 h-4 w-4" />
                         Code
                       </Link>
                     </Button>
