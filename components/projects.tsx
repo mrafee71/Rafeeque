@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { ExternalLinkIcon, GithubIcon, FileTextIcon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import PortfolioWebImage from "@/public/images/rafeeque.jpg"
 
 export default function Projects() {
   const projects = [
@@ -14,7 +15,7 @@ export default function Projects() {
       title: "Personal Portfolio Website",
       description:
         "A modern, responsive portfolio website built with Next.js and Tailwind CSS to showcase my skills, projects, and experience.",
-      image: "/placeholder.svg?height=300&width=600",
+      image: PortfolioWebImage,
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       githubUrl: "https://github.com/mrafee71/Rafeeque",
       liveUrl: "https://rafeeque.vercel.app/",
@@ -39,13 +40,13 @@ export default function Projects() {
       liveUrl: "https://mrafee71.github.io/Taskylo/",
     },
     {
-      title: "Blog Website",
+      title: "MyStore - E-commerce Platform",
       description:
-        "A full-featured blog platform built with Python Django that allows users to create, edit, and publish blog posts with user authentication.",
+        "An e-commerce platform UI built with  React.js, featuring product listings, user authentication, and a shopping cart.",
       image: "/placeholder.svg?height=300&width=600",
-      tags: ["Python", "Django", "HTML", "CSS", "JavaScript"],
-      githubUrl: "#",
-      liveUrl: "#",
+      tags: ["React.js", "HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      githubUrl: "https://github.com/mrafee71/mystore-ui",
+      liveUrl: "https://mystore-ui-puce.vercel.app/",
     },
   ]
 
