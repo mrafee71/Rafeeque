@@ -9,6 +9,7 @@ import Image from "next/image"
 import Link from "next/link"
 import PortfolioWebImage from "@/public/images/rafeeque.jpg"
 import MyStoreImage from "@/public/images/myStore.jpg"
+import HostelImage from "@/public/images/hostel.jpg"
 
 export default function Projects() {
   const projects = [
@@ -25,7 +26,7 @@ export default function Projects() {
       title: "Hostel Management System",
       description:
         "A comprehensive web application for managing hostel operations including room allocation, student records, and fee management.",
-      image: "/placeholder.svg?height=300&width=600",
+      image: HostelImage,
       tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       certificateUrl: "https://drive.google.com/file/d/19lNKU8dyCK1Uuv4-hRTBLvS6zlyKb87s/view?usp=sharing",
       githubUrl: "#",
