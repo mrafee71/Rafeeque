@@ -54,7 +54,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="flex flex-col items-center justify-center space-y-4 text-center mb-12"
+          className="flex flex-col items-center justify-center space-y-4 text-center"
         >
           <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary mb-2">Contact</div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get In Touch</h2>
@@ -63,7 +63,7 @@ export default function Contact() {
           </div>
         </motion.div>
 
-        <div className="lg:mx-auto grid max-w-4xl gap-4 py-8 lg:grid-cols-2">
+        <div className="flex items-center justify-center py-8">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -171,106 +171,6 @@ export default function Contact() {
                     </motion.a>
                   </div>
                 </div>
-              </CardContent>
-            </Card>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-          >
-            <Card className="overflow-hidden border-none shadow-lg bg-card/50 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-2xl">Send Me a Message</CardTitle>
-                <CardDescription>I'll get back to you as soon as possible</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="space-y-2">
-                    <label htmlFor="name" className="text-sm font-medium">
-                      Name
-                    </label>
-                    <Input
-                      id="name"
-                      name="name"
-                      type="text"
-                      value={formData.name}
-                      onChange={handleChange}
-                      placeholder="Your name"
-                      className="rounded-lg border-muted-foreground/20"
-                      required
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="email" className="text-sm font-medium">
-                      Email
-                    </label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="Your email"
-                      className="rounded-lg border-muted-foreground/20"
-                      required
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="subject" className="text-sm font-medium">
-                      Subject
-                    </label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      type="text"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      placeholder="Subject"
-                      className="rounded-lg border-muted-foreground/20"
-                      required
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="message" className="text-sm font-medium">
-                      Message
-                    </label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      placeholder="Your message"
-                      className="min-h-[120px] rounded-lg border-muted-foreground/20"
-                      rows={4}
-                      required
-                    />
-                  </div>
-                  <Button type="submit" className="w-full rounded-lg" disabled={isSubmitting}>
-                    {isSubmitting ? (
-                      <span className="flex items-center gap-2">
-                        <div className="h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
-                        Sending...
-                      </span>
-                    ) : (
-                      <span className="flex items-center gap-2">
-                        <SendIcon className="h-4 w-4" />
-                        Send Message
-                      </span>
-                    )}
-                  </Button>
-                  {submitSuccess && (
-                    <motion.p
-                      className="text-center text-green-600 dark:text-green-500 mt-4 py-2 px-4 bg-green-50 dark:bg-green-900/20 rounded-lg"
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                    >
-                      Message sent successfully!
-                    </motion.p>
-                  )}
-                </form>
               </CardContent>
             </Card>
           </motion.div>

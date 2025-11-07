@@ -109,7 +109,7 @@ export default function Hero() {
 
               <div className="relative aspect-square overflow-hidden rounded-full border-4 border-primary/10 w-[280px] h-[280px] md:w-[400px] md:h-[400px] p-2">
                 <div className="w-full h-full overflow-hidden rounded-full">
-                  <Image src="/images/profile.jpeg" alt="Muhammad Rafeeque PH" fill className="object-cover" priority />
+                  <Image src="/images/profile.png" alt="Muhammad Rafeeque PH" fill className="object-cover" priority />
                 </div>
               </div>
 
