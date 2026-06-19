@@ -2,7 +2,9 @@
 
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
-import { ArrowDownIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react"
+import { ArrowDownIcon } from "lucide-react"
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 import Link from "next/link"
 import Image from "next/image"
 
@@ -74,7 +76,7 @@ export default function Hero() {
             >
               <Link href="https://github.com/mrafee71" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary">
-                  <GithubIcon className="h-5 w-5" />
+                  <FaGithub className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
@@ -84,13 +86,13 @@ export default function Hero() {
                 rel="noopener noreferrer"
               >
                 <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary">
-                  <LinkedinIcon className="h-5 w-5" />
+                  <FaLinkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </Link>
               <Link href="https://x.com/muhammadrafee71" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary">
-                  <TwitterIcon className="h-5 w-5" />
+                  <BsTwitterX className="h-5 w-5" />
                   <span className="sr-only">Twitter</span>
                 </Button>
               </Link>
@@ -109,7 +111,7 @@ export default function Hero() {
 
               <div className="relative aspect-square overflow-hidden rounded-full border-4 border-primary/10 w-[280px] h-[280px] md:w-[400px] md:h-[400px] p-2">
                 <div className="w-full h-full overflow-hidden rounded-full">
-                  <Image src="/images/profile.png" alt="Muhammad Rafeeque PH" fill className="object-cover" priority />
+                  <Image src="/images/profile.jpeg" alt="Muhammad Rafeeque PH" fill className="object-cover" priority />
                 </div>
               </div>
 
